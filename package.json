@@ -1,5 +1,5 @@
 {
-  "name": "ims-lti",
+  "name": "ims-lti-led",
   "version": "3.0.2",
   "description": "Module for building an LTI Tool Provider and accept LTI launch requests",
   "author": {
@@ -14,6 +14,10 @@
     {
       "name": "David Kosub",
       "email": "dave@davidkosub.com"
+    },
+    {
+      "name": "Robert Bruce",
+      "email": "rbruce2@asu.edu"
     }
   ],
   "license": "MIT",
@@ -34,9 +38,9 @@
     "prepublish": "make build"
   },
   "dependencies": {
+    "node-uuid": "~1.4.0",
     "xml2js": "~0.4.0",
-    "xmlbuilder": "~2.4.0",
-    "node-uuid": "~1.4.0"
+    "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "coffee-coverage": "^0.4.4",
